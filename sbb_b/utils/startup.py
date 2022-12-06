@@ -26,7 +26,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("اعداد جمثون")
+LOGS = logging.getLogger("اعداد تيبثون")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -236,7 +236,7 @@ async def verifyLoggerGroup():
             LOGS.error("هنالك خطا ما للتعرف على فار كروب الحفظ\n" + str(e))
     else:
         descript = "⪼ هذه هي مجموعه الحفظ الخاصه بك لا تحذفها ابدا  𓆰."
-        photobt = await sbb_b.upload_file(file="razan/pic/tepthon.jpg")
+        photobt = await sbb_b.upload_file(file="razan/pic/tepthon.jpeg")
         _, groupid = await create_supergroup(
             "كروب بوت تيبثون", sbb_b, Config.TG_BOT_USERNAME, descript, photobt
         )
