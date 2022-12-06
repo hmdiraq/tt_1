@@ -261,7 +261,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على كروب التخزين\n" + str(e))
     else:
         descript = "❃ لا تحذف او تغادر المجموعه وظيفتها حفظ رسائل التي تأتي على الخاص"
-        photobt = await sbb_b.upload_file(file="razan/pic/tepthon.jpg")
+        photobt = await sbb_b.upload_file(file="razan/pic/tepthon.jpeg")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", sbb_b, Config.TG_BOT_USERNAME, descript, photobt
         )
