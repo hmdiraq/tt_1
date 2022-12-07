@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-CATLOGO = "https://telegra.ph/file/f1e757035e56613a9ef92.jpg"
+CATLOGO = "https://telegra.ph/file/577bd6562f22ca288f645.jpg"
 tr = Config.COMMAND_HAND_LER
 
 
@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧtepthonⵧⵧⵧⵧⵧ⍣**\n[𝘛𝘌𝘗𝘛𝘏𝘖𝘕 𝘜𝘚𝘌𝘙𝘉𝘖𝘛 🧸♥](https://t.me/Tepthone)\n\n"
+    text = f"**▾∮ مرحبا عزيزي {mention}**\n**▾اليكَ قائمة بازرار مضمنة لاوامر ↫**⍣ⵧⵧⵧⵧⵧᴛᴇᴘᴛʜᴏɴⵧⵧⵧⵧⵧ⍣**\n[𝙏𝙀𝙋𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/Tepthone)\n\n"
     buttons = [
         (Button.inline("معلومات الملفات 🗂", data="check"),),
         (
@@ -575,9 +575,9 @@ async def inline_handler(event):
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="[𝘛𝘌𝘗𝘛𝘏𝘖𝘕 𝘜𝘚𝘌𝘙𝘉𝘖𝘛 🧸♥](https://t.me/Tepthone)",
+            title="[𝙏𝙀𝙋𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/Tepthone)",
             description="لتنصيبه لك",
-            url="t.me/Tepthone",
+            url="t.me/Tepthon",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
