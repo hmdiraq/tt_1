@@ -3,7 +3,7 @@
     "description": "تنصيب سورس تيبثون مجانا على منصة سكالينجو",
     "addons": ["scalingo-postgresql"],
     "keywords": ["jmthon", "userbot","scalingo"],
-    "repository": "https://github.com/Tepthonee/sbb_b0-1",
+    "repository": "https://github.com/Tepthonee/tt_1",
   "stack": "container",
     "env": {
         "ALIVE_NAME": {
