@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-CATLOGO = "https://telegra.ph/file/f1e757035e56613a9ef92.jpg"
+CATLOGO = "https://telegra.ph/file/577bd6562f22ca288f645.jpg"
 tr = Config.COMMAND_HAND_LER
 
 
@@ -577,7 +577,7 @@ async def inline_handler(event):
             type="photo",
             title="[𝙏𝙀𝙋𝙏𝙃𝙊𝙉 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 🧸♥](https://t.me/Tepthone)",
             description="لتنصيبه لك",
-            url="t.me/Tepthon",
+            url="t.me/Tepthone",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
