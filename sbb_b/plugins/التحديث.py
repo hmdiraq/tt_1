@@ -247,10 +247,10 @@ async def upstream(event):
     elif os.path.exists("config.py"):
         return await edit_delete(
             event,
-            f"⌔∮ يبدو انك نصبت جمقون عبر السيرفر يرجى ارسال `{cmdhd}تحديث الان`",
+            f"⌔∮ يبدو انك نصبت تيبثون عبر السيرفر يرجى ارسال `{cmdhd}تحديث الان`",
         )
     event = await edit_or_reply(event, "⌔∮ يتم الان الوصول الى معلومات التحديث انتظر")
-    off_repo = "https://github.com/jmthonar/zuhairy"
+    off_repo = "https://github.com/Tepthonee/tt_1"
     os.chdir("/app")
     try:
         txt = "**⌔∮ عذرا لم يتم اكمال التحديث بسبب بعض الاخطاء " + "**اللوگ:**\n"
