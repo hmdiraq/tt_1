@@ -19,7 +19,7 @@
 # Licence 📋
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-* Copyright (C) 2022-2023 by Tepthon@Github, < https://github.com/rick1128 >.
+* Copyright (C) 2022-2023 by Tepthon@Github, < https://github.com/Tepthonee >.
 
 RallsUserbot is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
