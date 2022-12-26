@@ -32,12 +32,12 @@ async def amireallyalive(event):
         ANIME = f"**“{data['quote']}” - {data['character']} ({data['anime']})**"
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    jmthonevent = await edit_or_reply(event, "**- جار التأكد انتظر قليلا**")
+    jmthonevent = await edit_or_reply(event, "**᯽︙ يتـم التـأكـد انتـظر قليلا رجاءً**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "  - "
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**سورس تيبثون يعمل بنجاح**"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/Tepthone)父**"
     JMTHON_IMG = gvarstatus("ALIVE_PIC")
     caption = jmthon_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -72,17 +72,17 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} قاعدة البيانات :** `{dbhealth}`
-**{EMOJI} اصدار التيليثون:** `{telever}`
-**{EMOJI} اصدار تيبثون :** `{jmver}`
-**{EMOJI} اصدار البايثون :** `{pyver}`
-**{EMOJI} الوقت :** `{uptime}`
-**{EMOJI} المالك:** {mention}"""
+**‎{EMOJI}‌‎𝙽𝙰𝙼𝙴 𖠄 {mention}** ٫
+**‌‎{EMOJI}‌‎𝙿𝚈𝚃𝙷𝙾𝙽 𖠄 {pyver}** ٫
+**‌‎{EMOJI}‌‎𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𖠄 {telever}** ٫
+**‌‎{EMOJI}‌‎𝚄𝙿𝚃𝙸𝙼𝙴 𖠄 {uptime}** ٫
+‌‎**{EMOJI}‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 {ping}** ٫
+**𖠄 Tepthon 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
 
 
 def jmthonalive_text():
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
-    jmthon_caption = "**سورس تيبثون يعمل بنجاح**\n"
+    jmthon_caption = "**𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶**\n"
     jmthon_caption += f"**{EMOJI} اصدار التيليثون :** `{version.__version__}\n`"
     jmthon_caption += f"**{EMOJI} اصدار تيبثون :** `{jmthonversion}`\n"
     jmthon_caption += f"**{EMOJI} اصدار البايثون :** `{python_version()}\n`"
