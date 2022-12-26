@@ -54,9 +54,9 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await sbb_b(JoinChannelRequest("@jmthon"))
-        await sbb_b(JoinChannelRequest("@RR7PP"))
-        await sbb_b(JoinChannelRequest("@thejmthon"))
+        await sbb_b(JoinChannelRequest("@Tepthone"))
+        await sbb_b(JoinChannelRequest("@P17_12"))
+        await sbb_b(JoinChannelRequest("@Tepthon_Help"))
     except BaseException:
         pass
 
